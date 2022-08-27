@@ -1,0 +1,15 @@
+node{
+    stage('build'){
+        bat 'python -V'
+        
+    }
+    stage('test'){
+        git branch: 'main', url: 'https://github.com/MarcosRibas/atividade_somativa_devops'
+        bat 'python hello.py'
+        
+    }
+    stage('deploy'){
+        echo "finished"
+        
+    }
+}
