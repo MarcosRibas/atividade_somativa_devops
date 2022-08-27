@@ -1,0 +1,1 @@
+print('Esse repositório foi desenvolvido para demonstrar os conhecimentos adquiridos na matéria de DevOps da PUC-PR')
